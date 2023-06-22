@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/54212b1443.js" crossorigin="anonymous"></script>
+    <title>我的網頁(自訂)</title>
+
+</head>
+
+<body>
+    <!-- 第零段:Nav -->
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">導覽列</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">主頁</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">最新消息</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                聯絡我們
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">最新消息</a></li>
+                                    <li><a class="dropdown-item" href="#">聯絡我們</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="https://www.google.com/">Vue作品</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 第一段:上方的標題文字 -->
+    <section id="intro">
+        <div class="container">
+            <div class="col-md-12">
+                <h1 class="display-4">北投溫泉週末遊行程</h1>
+                <p class="lead">生活悶悶的?加入我們一起出國啦!</p>
+                <a href="#">參加行程去~~</a>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <!-- 第二段:介簡 -->
+    <section id="second">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h3>跟隨導遊小何，在週末享受北投溫泉吧!</h3>
+                    <!-- 跟隨導遊小何，在這個週末領略北投溫泉的美好吧! -->
+                    <div class="row">
+                        <div class="col-md-4 text-center">
+                            <img src="pictures/inner.png">
+                            <h5>導遊小何</h5>
+                        </div>
+                        <div class="col-md-8 text-left">
+                            <p class="lead">無論你是單身一人或是一班朋友想去狂歡，只要你是Cool Guys/ Girls，都歡迎加入我們這個大家庭!</p>
+                            <p>你好!我叫小何!是這次帶領大家旅遊台灣景點的導遊。
+                            </p>
+                            <p>6666</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 第三段:產品介紹 -->
+    <section id="latest">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>最新派對</h3>
+                    <div class='row'>
+                        <div class='col-md-4 text-left'>
+                            <div class='outer'>
+                                <a href='#'>
+                                    <div class='upper'>
+                                        <img src='pictures/spring.jpg'>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class='lower'>
+                                <span>可報名</span>
+                                <h4>男：HKD380 女：HKD280</h4>
+                                <h3>狂歡派對（旅行篇） - 11月</h3>
+                                <span><i class="fas fa-map-marker-alt">香港銅鑼灣怡和街2-6號 英光大廈 7樓全層</i></span><br>
+                                <span><i class="far fa-clock"></i> Nov 03, 2018 08:00PM</span>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-left'>
+                            <div class='outer'>
+                                <a href='#'>
+                                    <div class='upper'>
+                                        <img src='pictures/spring.jpg'>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class='lower'>
+                                <span>可報名</span>
+                                <h4>男：HKD380 女：HKD280</h4>
+                                <h3>狂歡派對（旅行篇） - 11月</h3>
+                                <span><i class="fas fa-map-marker-alt">香港銅鑼灣怡和街2-6號 英光大廈 7樓全層</i></span><br>
+                                <span><i class="far fa-clock"></i> Nov 03, 2018 08:00PM</span>
+                            </div>
+                        </div>
+                        <div class='col-md-4 text-left'>
+                            <div class='outer'>
+                                <a href='#'>
+                                    <div class='upper'>
+                                        <img src='pictures/spring.jpg'>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class='lower'>
+                                <span>可報名</span>
+                                <h4>男：HKD380 女：HKD280</h4>
+                                <h3>狂歡派對（旅行篇） - 11月</h3>
+                                <span><i class="fas fa-map-marker-alt">香港銅鑼灣怡和街2-6號 英光大廈 7樓全層</i></span><br>
+                                <span><i class="far fa-clock"></i> Nov 03, 2018 08:00PM</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 第四段:Email -->
+    <section id="email">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-center">
+                    <h3>加入K.O. Party的Email List</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2 text-left">
+                    <p>讓我們有最新派對便通知你吧!</p>
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg" placeholder="你的電郵">
+                    </div>
+                    <a href="#" class="btn btn-primary btn-lg" role="button">提交</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 第五段:footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-left">
+                    <img src="pictures/logo.jpg" width="85">
+                    <p>K.O. Party舉辦全港最好玩既Private派對。生活悶悶地？加入我們一齊玩啦！</p>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>連結</h4>
+                    <ul>
+                        <li><a href="index.html">主頁</a></li>
+                        <li><a href="all.html">最新派對</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="faq.html">常見問題</a></li>
+                        <li><a href="contact.html">聯絡我們</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h4>聯絡我們</h4>
+                    <p>銅鑼灣謝斐道535號Tower 535 20樓<br> Phone: (852) 6761-3714<br> E-Mail: <a href="mailto:xxx@gmail.com">xxx@gmail.com</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
